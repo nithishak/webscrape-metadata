@@ -1,5 +1,5 @@
-
 from functions import *
+
 ################
 # inputs
 ################
@@ -14,6 +14,7 @@ prefix = inputConfig['prefix']
 
 
 try:
+<<<<<<< HEAD
   if (not checkForInputs(mandatoryFields, inputConfig)) : #making sure that all required input fields are present. In the event that they are not, an exception is raised.
     raise Exception('Fields of interest not present!')
 
